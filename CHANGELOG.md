@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Rename LICENSE to LICENSE.txt [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
+- Update changelog [(#6)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/6)
 
 
 ### Removed
