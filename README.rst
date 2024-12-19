@@ -62,8 +62,8 @@ License and Citation
 ====================
 | The code of this repository is licensed under the **MIT License** (MIT).
 | See `LICENSE.txt <LICENSE.txt>`_ for rights and obligations.
-| See the *Cite this repository* function or `CITATION.cff <https://github.com/OpenEnergyPlatform/OpenTransportOntology//blob/production/CITATION.cff>`_ for citation of this repository.
-| Copyright: `super-repo <https://github.com/OpenEnergyPlatform/OpenTransportOntology//>`_ © `Reiner Lemoine Institut <https://reiner-lemoine-institut.de/>`_ | `MIT <LICENSE.txt>`_
+| See the *Cite this repository* function or `CITATION.cff <https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/CITATION.cff>`_ for citation of this repository.
+| Copyright: `super-repo <https://github.com/OpenEnergyPlatform/OpenTransportOntology/>`_ © `Reiner Lemoine Institut <https://reiner-lemoine-institut.de/>`_ | `MIT <LICENSE.txt>`_
 
 
 .. |badge_license| image:: https://img.shields.io/github/license/OpenEnergyPlatform/OpenTransportOntology/
@@ -74,15 +74,15 @@ License and Citation
     :target: https://api.reuse.software/info/github.com/OpenEnergyPlatform/OpenTransportOntology/
     :alt: REUSE
 
-.. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/OpenEnergyPlatform/OpenTransportOntology//documentation.yml?branch=develop
+.. |badge_documentation| image:: https://img.shields.io/github/actions/workflow/status/OpenEnergyPlatform/OpenTransportOntology/documentation.yml?branch=develop
     :target: https://rl-institut.github.io/super-repo/
     :alt: Documentation
 
-.. |badge_tox| image:: https://github.com/OpenEnergyPlatform/OpenTransportOntology//actions/workflows/tox.yml/badge.svg
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology//actions/workflows/tox.yml
+.. |badge_tox| image:: https://github.com/OpenEnergyPlatform/OpenTransportOntology/actions/workflows/tox.yml/badge.svg
+    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/actions/workflows/tox.yml
     :alt: Documentation
 
-.. |badge_codecov| image:: https://codecov.io/gh/OpenEnergyPlatform/OpenTransportOntology//graph/badge.svg?token=YYCJI3D5G5
+.. |badge_codecov| image:: https://codecov.io/gh/OpenEnergyPlatform/OpenTransportOntology/graph/badge.svg?token=YYCJI3D5G5
     :target: https://codecov.io/gh/OpenEnergyPlatform/OpenTransportOntology/
     :alt: Codecov
 
@@ -99,7 +99,7 @@ License and Citation
     :alt: PyPI Downloads
 
 .. |badge_contributing| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology//blob/develop/CONTRIBUTING.md
+    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/develop/CONTRIBUTING.md
     :alt: contributions
 
 .. |badge_repo_counts| image:: http://hits.dwyl.com/OpenEnergyPlatform/OpenTransportOntology/.svg
@@ -107,23 +107,23 @@ License and Citation
     :alt: counter
 
 .. |badge_contributors| image:: https://img.shields.io/github/contributors/OpenEnergyPlatform/OpenTransportOntology/
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology//graphs/contributors
+    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/graphs/contributors
     :alt: contributors
 
 .. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/OpenTransportOntology/
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology//issues
+    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues
     :alt: open issues
 
 .. |badge_issue_closes| image:: https://img.shields.io/github/issues-closed-raw/OpenEnergyPlatform/OpenTransportOntology/
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology//issues?q=is%3Aissue+is%3Aclosed
+    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues?q=is%3Aissue+is%3Aclosed
     :alt: closes issues
 
 .. |badge_pr_open| image:: https://img.shields.io/github/issues-pr-raw/OpenEnergyPlatform/OpenTransportOntology/
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology//pulls
+    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/pulls
     :alt: closes issues
 
 .. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/OpenEnergyPlatform/OpenTransportOntology/
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology//pulls?q=is%3Apr+is%3Aclosed
+    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/pulls?q=is%3Apr+is%3Aclosed
     :alt: closes issues
 
 .. |badge_matrix| image:: https://img.shields.io/matrix/super-repo:matrix.org
