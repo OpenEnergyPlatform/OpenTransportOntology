@@ -1,7 +1,7 @@
 ..
-  SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+  SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 
-  SPDX-License-Identifier: MIT
+  SPDX-License-Identifier: CC0-1.0
 
 .. figure:: https://private-user-images.githubusercontent.com/14353512/397386887-992f9469-b483-444c-9ae6-7694a323b1d2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ2MTM5MzIsIm5iZiI6MTczNDYxMzYzMiwicGF0aCI6Ii8xNDM1MzUxMi8zOTczODY4ODctOTkyZjk0NjktYjQ4My00NDRjLTlhZTYtNzY5NGEzMjNiMWQyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE5VDEzMDcxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA1NmU4NjJmNzE5M2QxNGQ3ZmI5YjJkMGRiODg2NjliM2RjMjU3OGFkY2NkODQyMjgzOTY4M2M1ZmM5N2RmOTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.6w1btX_COoGL2Mnb1WnnoiReQQkRNqSHZyl6pvucbU4
     :align: left
