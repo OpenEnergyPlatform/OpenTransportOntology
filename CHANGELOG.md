@@ -15,11 +15,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Add CODE_OF_CONDUCT [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
+- Add CITATION.cff [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
+- Add CONTRIBUTIONG.md [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
+- Add README.rst [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
+- Add USERS.cff [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
+- Add CHANGELOG.md [(#5)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/5)
+- Add issue templates [(#5)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/5)
+- Add pull request templates [(#5)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/5)
+
+
 ### Changed
+
+- Rename LICENSE to LICENSE.txt [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
+
 
 ### Removed
 
-## [0.0.0] Initial Release - Hello Super-Repository - 2022-03-03
+## [0.0.0] Initial Release - Hello Open Transport Ontology - 2024-12-19
 
 ### Added
 
