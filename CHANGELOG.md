@@ -1,5 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: Open Transport Ontology <https://github.com/OpenEnergyPlatform/OpenTransportOntology/>
 SPDX-License-Identifier: CC0-1.0
 -->
 
