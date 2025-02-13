@@ -1,19 +1,20 @@
 # SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: Open Transport Ontology <https://github.com/OpenEnergyPlatform/OpenTransportOntology>
 # SPDX-License-Identifier: CC0-1.0
 
 cff-version: 1.2.0
 message: "If you use this software, please cite it using these metadata."
 authors:
-  - family-names: "Hülk"
-    given-names: "Ludwig"
-    alias: "Ludee"
-    affiliation: "Reiner Lemoine Institut"
-    orcid: "https://orcid.org/0000-0003-4655-2321"
   - family-names: "Hoyer-Click"
     given-names: "Carsten"
     alias: "carstenhoyerklick"
     affiliation: "DLR"
     orcid: ""
+  - family-names: "Hülk"
+    given-names: "Ludwig"
+    alias: "Ludee"
+    affiliation: "Reiner Lemoine Institut"
+    orcid: "https://orcid.org/0000-0003-4655-2321"
 title: "Open Transport Ontology (OTO)"
 type: software
 license: CC0-1.0
