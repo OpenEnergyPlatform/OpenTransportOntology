@@ -11,9 +11,9 @@
 <http://w3id.org/oto/oto-shared/> rdf:type owl:Ontology ;
                                    owl:versionIRI <http://w3id.org/oto/develop/oto-shared.ttl> ;
                                    owl:imports <https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl> ;
-                                   dc:description "The Open Energy Ontology is an ontology for all aspects of the energy modelling domain. The \"Shared\" module covers all entities that are relevant for all our other modules. This includes shared imports like the BFO, IAO- and RO- module." ;
+                                   dc:description "The Open Transport Ontology is an ontology for all aspects of the transport  modelling domain. The \"Shared\" module covers all entities that are relevant for all our other modules. This includes shared imports like the BFO." ;
                                    <http://purl.org/dc/terms/license> "http://creativecommons.org/publicdomain/zero/1.0/" ;
-                                   <http://purl.org/dc/terms/title> "Open Energy Ontology (Shared module)" .
+                                   <http://purl.org/dc/terms/title> "Open Transport Ontology (Shared module)" .
 
 #################################################################
 #    Annotation properties
@@ -33,7 +33,7 @@
 
 ###  http://purl.obolibrary.org/obo/IAO_0000118
 <http://purl.obolibrary.org/obo/IAO_0000118> rdf:type owl:AnnotationProperty ;
-                                             rdfs:comment "In the OEO, we don't follow the definition strictly. We use alternative term for synonyms and ambiguous terms as well. See https://github.com/OpenEnergyPlatform/ontology/wiki/Handling-ambiguous-terms" .
+                                             rdfs:comment "In the OTO, we don't follow the definition strictly. We use alternative term for synonyms and ambiguous terms as well. See https://github.com/OpenEnergyPlatform/ontology/wiki/Handling-ambiguous-terms" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000119

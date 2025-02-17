@@ -18,9 +18,9 @@
                                        "(0003) Ludwig Hülk (@Ludee)" ,
                                        "(0004) Eugenio Salvador Arellano Ruiz (@areleu)" ,
                                        "(0005) Sirko Schindler (@SirkoS)" ;
-                        dc:description "The Open Transport is an ontology for all aspects of the transport  domain." ;
+                        dc:description "The Open Transport Ontology is an ontology for all aspects of the transport  domain." ;
                         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-                        dct:title "Open Energy Ontology" .
+                        dct:title "Open Transport Ontology" .
 
 #################################################################
 #    Annotation properties
