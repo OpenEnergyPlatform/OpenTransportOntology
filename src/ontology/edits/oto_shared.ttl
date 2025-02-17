@@ -10,13 +10,8 @@
 
 <http://w3id.org/oto/oto-shared/> rdf:type owl:Ontology ;
                                    owl:versionIRI <http://w3id.org/oto/develop/oto-shared.ttl> ;
-<<<<<<< HEAD
                                    owl:imports <https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl> ;
                                    dc:description "The Open Transport Ontology is an ontology for all aspects of the transport  modelling domain. The \"Shared\" module covers all entities that are relevant for all our other modules. This includes shared imports like the BFO." ;
-=======
-                                   owl:imports <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> ;
-                                   dc:description "The Open Energy Ontology is an ontology for all aspects of the energy modelling domain. The \"Shared\" module covers all entities that are relevant for all our other modules. This includes shared imports like the BFO, IAO- and RO- module." ;
->>>>>>> fef07c29741971b46ff2115f55a82674faddb8c7
                                    <http://purl.org/dc/terms/license> "http://creativecommons.org/publicdomain/zero/1.0/" ;
                                    <http://purl.org/dc/terms/title> "Open Transport Ontology (Shared module)" .
 
