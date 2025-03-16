@@ -1,4 +1,5 @@
 @prefix : <http://w3id.org/oto/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -11,9 +12,9 @@
 <http://w3id.org/oto/oto-shared/> rdf:type owl:Ontology ;
                                    owl:versionIRI <http://w3id.org/oto/develop/oto-shared.ttl> ;
                                    owl:imports <https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl> ;
-                                   dc:description "The Open Transport Ontology is an ontology for all aspects of the transport  modelling domain. The \"Shared\" module covers all entities that are relevant for all our other modules. This includes shared imports like the BFO." ;
-                                   <http://purl.org/dc/terms/license> "http://creativecommons.org/publicdomain/zero/1.0/" ;
-                                   <http://purl.org/dc/terms/title> "Open Transport Ontology (Shared module)" .
+                                   dct:abstract "The Open Transport Ontology is an ontology for all aspects of the transport modelling domain. The \"Shared\" module covers all entities that are relevant for all our other modules. This includes shared imports like the BFO."@en ;
+                                   dct:license "http://creativecommons.org/publicdomain/zero/1.0/" ;
+                                   dct:title "Open Transport Ontology (Shared module)" .
 
 #################################################################
 #    Annotation properties
