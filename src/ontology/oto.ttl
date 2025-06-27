@@ -12,15 +12,18 @@
 
 <http://w3id.org/oto/> rdf:type owl:Ontology ;
                         owl:versionIRI <http://w3id.org/oto/develop/oto.ttl> ;
+                        owl:versionInfo "0.1.0" ;
                         owl:imports <http://w3id.org/oto/develop/oto-shared.ttl> ;
                         dc:contributor "(0001) Mirjam Stappel (@stap-m)" ,
                                        "(0002) Carsten Hoyer-Klick (@carstenhoyerklick)" ,
                                        "(0003) Ludwig Hülk (@Ludee)" ,
                                        "(0004) Eugenio Salvador Arellano Ruiz (@areleu)" ,
                                        "(0005) Sirko Schindler (@SirkoS)" ;
-                        dc:description "The Open Transport Ontology is an ontology for all aspects of the transport  domain." ;
+                        dct:abstract "The Open Transport Ontology is an ontology for all aspects of the transport domain." ;
                         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-                        dct:title "Open Transport Ontology" .
+                        dct:title "Open Transport Ontology" ;
+                        schema:citation "Cite as: Open Transport Ontology v0.1.0"@en .
+
 
 #################################################################
 #    Annotation properties

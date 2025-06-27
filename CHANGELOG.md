@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add pull request templates [(#5)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/5)
 - add src/ontology/oto.ttl [(#8)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/8)
 - add src/ontology/edits/oto-shared.ttl [(#8)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/8)
+- add CI/CD for documentation via github pages [(#14)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/14)
 
 ### Changed
 
