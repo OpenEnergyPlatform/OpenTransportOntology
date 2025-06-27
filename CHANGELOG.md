@@ -16,6 +16,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+### Changed
+
+### Removed
+
+
+## [0.1.0]
+
+### Added
+
 - Add CODE_OF_CONDUCT [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
 - Add CITATION.cff [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
 - Add CONTRIBUTIONG.md [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)

@@ -15,10 +15,15 @@ authors:
     alias: "Ludee"
     affiliation: "Reiner Lemoine Institut"
     orcid: "https://orcid.org/0000-0003-4655-2321"
+  - family-names: "Schindler"
+    given-names: "Sirko"
+    alias: "SirkoS"
+    affiliation: "German Aerospace Center (DLR), Institute of Data Science, Jena."
+    orcid: "https://orcid.org/0000-0002-0964-4457"
 title: "Open Transport Ontology (OTO)"
 type: software
 license: CC0-1.0
-version: 0.0.1
+version: 0.1.0
 doi: null
-date-released: 2024-12-19
+date-released: 2025-06-27
 url: "https://github.com/OpenEnergyPlatform/OpenTransportOntology/"
