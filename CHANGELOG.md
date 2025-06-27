@@ -1,5 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: Open Transport Ontology <https://github.com/OpenEnergyPlatform/OpenTransportOntology/>
 SPDX-License-Identifier: CC0-1.0
 -->
 
@@ -15,6 +16,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+### Changed
+
+### Removed
+
+
+## [0.1.0]
+
+### Added
+
 - Add CODE_OF_CONDUCT [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
 - Add CITATION.cff [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
 - Add CONTRIBUTIONG.md [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
@@ -23,7 +33,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add CHANGELOG.md [(#5)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/5)
 - Add issue templates [(#5)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/5)
 - Add pull request templates [(#5)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/5)
-
+- add src/ontology/oto.ttl [(#8)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/8)
+- add src/ontology/edits/oto-shared.ttl [(#8)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/8)
+- add CI/CD for documentation via github pages [(#14)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/14)
 
 ### Changed
 
