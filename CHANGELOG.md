@@ -1,7 +1,6 @@
 <!--
-SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
 SPDX-FileCopyrightText: Open Transport Ontology <https://github.com/OpenEnergyPlatform/OpenTransportOntology/>
-SPDX-License-Identifier: CC0-1.0
+SPDX-License-Identifier: CC0-1.0 OR MIT
 -->
 
 # Changelog
@@ -24,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0]
 
 ### Added
-
+- ADD MIT License [(#12)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/12)
 - Add CODE_OF_CONDUCT [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
 - Add CITATION.cff [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
 - Add CONTRIBUTIONG.md [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
