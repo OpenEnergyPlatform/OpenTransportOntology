@@ -23,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0]
 
 ### Added
-- ADD MIT License [(#12)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/12)
+
 - Add CODE_OF_CONDUCT [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
 - Add CITATION.cff [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
 - Add CONTRIBUTIONG.md [(#4)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/4)
@@ -35,6 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add src/ontology/oto.ttl [(#8)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/8)
 - add src/ontology/edits/oto-shared.ttl [(#8)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/8)
 - add CI/CD for documentation via github pages [(#14)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/14)
+- ADD MIT License [(#12)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/12)
+- ADD REUSE license check and copyright info [(#12)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/12)
 
 ### Changed
 
