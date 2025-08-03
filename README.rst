@@ -72,7 +72,7 @@ To cite a specific class of the ontology and its definition please use the follo
 > 'class label' (FUll-URI) from the [Open Transport Ontology (OEO)](https://github.com/OpenEnergyPlatform/OpenTransportOntology)
 
 .. |badge_license| image:: https://img.shields.io/github/license/OpenEnergyPlatform/OpenTransportOntology
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/LICENSE.txt
+    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/LICENSE-CCO.txt OR https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/LICENSE-MIT
     :alt: License
 
 .. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/OpenTransportOntology
