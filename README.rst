@@ -56,13 +56,20 @@ Contributors:
     :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/graphs/contributors
     :alt: [contrib.rocks](https://contrib.rocks)
 
-License and Citation
+License / Copyright
 ====================
-| The code of this repository is licensed under the **MIT License** (MIT).
-| See `LICENSE.txt <LICENSE.txt>`_ for rights and obligations.
-| See the *Cite this repository* function or `CITATION.cff <https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/CITATION.cff>`_ for citation of this repository.
-| Copyright: `Open Transport Ontology <https://github.com/OpenEnergyPlatform/OpenTransportOntology/>`_ | `CC0-1.0 <LICENSE.txt>`_
+| This repository is **dual-licensed** under `Creative Commons Zero v1.0 Universal (CC0-1.0) <https://creativecommons.org/publicdomain/zero/1.0/legalcode>` or `MIT License (MIT) <https://opensource.org/license/mit>`.
+You can choose between one of them if you use this work. 
 
+
+| Copyright: `Open Transport Ontology <https://github.com/OpenEnergyPlatform/OpenTransportOntology/>`_ | `CC0-1.0 <LICENSE-CCO.txt>` | `MIT <LICENSE-MIT.txt>`_
+
+Citation
+========
+For **scientific citation** of this ontology, please refer to the `CITATION.cff <CITATION.cff>` file. 
+
+To cite a specific class of the ontology and its definition please use the following convention:
+> 'class label' (FUll-URI) from the [Open Transport Ontology (OEO)](https://github.com/OpenEnergyPlatform/OpenTransportOntology)
 
 .. |badge_license| image:: https://img.shields.io/github/license/OpenEnergyPlatform/OpenTransportOntology
     :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/LICENSE.txt
