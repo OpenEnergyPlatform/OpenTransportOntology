@@ -11,6 +11,7 @@ MKDIR_P = mkdir -p
 VERSION:= $(shell cat VERSION)
 VERSIONDIR := build/$(ONTOLOGY_NAME)/$(VERSION)
 ONTOLOGY_SOURCE := src/ontology
+SCRIPTS := src/scripts
 BFO_SOURCE := https://raw.githubusercontent.com/BFO-ontology/BFO/v2019-08-26/bfo_classes_only.owl
 TMP := tmp
 IMPORTS := $(ONTOLOGY_SOURCE)/imports
@@ -109,7 +110,7 @@ endef
 
 all: base merge profiles closure owx
 
-imports: $(IMPORTS) $(IMPORTS)/bfo_classes_only.owl
+imports: ${TMP} ${TMP}/catalog.xml $(IMPORTS) $(IMPORTS)/bfo_classes_only.owl $(IMPORTS)/cco-extracted.ttl
 
 base: | directories imports $(VERSIONDIR)/catalog-v001.xml robot.jar  $(TTL_COPY) $(OWL_COPY) $(OWLVERSION) $(TTL_TRANSLATE)
 
@@ -118,8 +119,6 @@ merge: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-full.ttl
 owx: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-full.owx 
 
 closure: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-closure.ttl
-
-profiles: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-el.ttl $(VERSIONDIR)/$(ONTOLOGY_NAME)-ql.ttl
 
 clean:
 	- $(RM) -r $(VERSIONDIR)
@@ -137,16 +136,13 @@ $(IMPORTS)/bfo_classes_only.owl:
 	curl -L -o $@ $(BFO_SOURCE)
 
 $(IMPORTS)/cco-extracted.ttl: $(ROBOT_PATH)
-	bash scripts/cco-imports/cco-extracted.sh
-
-$(IMPORTS)/oeo-extracted.ttl: $(ROBOT_PATH)
-	bash scripts/oeo-imports/oeo-extracted.sh
-
-$(IMPORTS)/iao-extracted.ttl: $(ROBOT_PATH)
-	bash scripts/oeo-imports/iao-extracted.sh
+	bash src/scripts/cco-imports/cco-extracted.sh
 
 ${TMP}:
 	${MKDIR_P} ${TMP}
+
+${TMP}/catalog.xml:
+	cp assets/catalog.xml  $@
 
 $(VERSIONDIR)/owl:
 	${MKDIR_P} $(VERSIONDIR)/owl
@@ -192,7 +188,7 @@ $(VERSIONDIR)/%.ttl: $(ONTOLOGY_SOURCE)/%.ttl
 	$(call replace_placeholder,$@)
 	$(call replace_devs,$@)
 
-$(VERSIONDIR)/%.owl: $(ONTOLOGY_SOURCE)/%.ttl
+$(VERSIONDIR)/%.owl: $(ONTOLOGY_SOURCE)/%.owl
 	cp -a $< $@
 	$(call replace_placeholder,$@)
 	$(call replace_devs,$@)
