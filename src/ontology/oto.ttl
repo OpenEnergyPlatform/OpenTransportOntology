@@ -18,7 +18,8 @@
                                        "(0002) Carsten Hoyer-Klick (@carstenhoyerklick)" ,
                                        "(0003) Ludwig Hülk (@Ludee)" ,
                                        "(0004) Eugenio Salvador Arellano Ruiz (@areleu)" ,
-                                       "(0005) Sirko Schindler (@SirkoS)" ;
+                                       "(0005) Sirko Schindler (@SirkoS)" ,
+									   "(0006) Daniel Krajzewicz (@dkrajzew)" ;
                         dct:abstract "The Open Transport Ontology is an ontology for all aspects of the transport domain." ;
                         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
                         dct:title "Open Transport Ontology" ;
