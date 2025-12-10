@@ -77,7 +77,7 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020000 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "Temperature is a quality representing the driving force for the flow of heat energy and is a measure of the heat content of a material entity."@en ;
-              rdfs:label "temperature"@de ;
+              rdfs:label "temperature"@en ;
               <http://www.w3.org/2004/02/skos/core#exactMatch> OEO:OEO_00010453 .
 
 
