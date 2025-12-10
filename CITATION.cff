@@ -28,6 +28,7 @@ authors:
     given-names: "Mirjam"
     alias: "@stap-m"
     affiliation: "Universität Osnabrück"
+    orcid: "https://orcid.org/0000-0003-3722-5564"
 title: "Open Transport Ontology (OTO)"
 type: software
 license: CC0-1.0 OR MIT
