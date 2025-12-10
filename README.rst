@@ -18,7 +18,7 @@ Open Transport Ontology
    :widths: auto
 
    * - License
-     - |badge_license|
+     - |badge_license_CC0| |badge_license_MIT|
    * - Documentation
      - 
    * - Tests
@@ -59,10 +59,8 @@ Contributors:
 License / Copyright
 ====================
 | This repository is **dual-licensed** under `Creative Commons Zero v1.0 Universal (CC0-1.0) <https://creativecommons.org/publicdomain/zero/1.0/legalcode>` or `MIT License (MIT) <https://opensource.org/license/mit>`.
-You can choose between one of them if you use this work. 
-
-
-| Copyright: `Open Transport Ontology <https://github.com/OpenEnergyPlatform/OpenTransportOntology/>`_ | `CC0-1.0 <LICENSE-CCO.txt>` | `MIT <LICENSE-MIT.txt>`_
+| You can choose between one of them if you use this work.
+| Copyright: `Open Transport Ontology <https://github.com/OpenEnergyPlatform/OpenTransportOntology/>`_ | `CC0-1.0 <LICENSE-CCO.txt>`_ | `MIT <LICENSE-MIT.txt>`_
 
 Citation
 ========
@@ -71,13 +69,14 @@ For **scientific citation** of this ontology, please refer to the `CITATION.cff 
 To cite a specific class of the ontology and its definition please use the following convention:
 > 'class label' (FUll-URI) from the [Open Transport Ontology (OEO)](https://github.com/OpenEnergyPlatform/OpenTransportOntology)
 
-.. |badge_license| image:: https://img.shields.io/github/license/OpenEnergyPlatform/OpenTransportOntology
+
 .. |badge_license_CC0| image:: https://img.shields.io/badge/License-CC0%201.0-green.svg
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/LICENSE-CCO.txt 
+    :target: http://creativecommons.org/publicdomain/zero/1.0/
+    :alt: License CC0
+
 .. |badge_license_MIT| image:: https://img.shields.io/badge/License-MIT-green.svg
-    :target:
-https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/LICENSE-MIT.txt
-    :alt: License
+    :target: https://opensource.org/license/mit
+    :alt: License MIT
 
 .. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/OpenTransportOntology
     :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues
