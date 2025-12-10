@@ -24,10 +24,14 @@ authors:
     alias: "dkrajzew"
     affiliation: "German Aerospace Center (DLR), Institute of Transport Research, Berlin."
     orcid: "https://orcid.org/0000-0003-1045-8800"
+  - family-names: "Stappel"
+    given-names: "Mirjam"
+    alias: "@stap-m"
+    affiliation: "Universität Osnabrück"
 title: "Open Transport Ontology (OTO)"
 type: software
 license: CC0-1.0 OR MIT
 version: 0.1.0
 doi: null
-date-released: 2025-06-27
+date-released: 2025-12-10
 url: "https://github.com/OpenEnergyPlatform/OpenTransportOntology/"
