@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Introduction and scoope added to README.rst and to the abstract of the ontolgy. 
 ### Changed
 
 ### Removed
