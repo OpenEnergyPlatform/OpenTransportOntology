@@ -37,7 +37,17 @@ Open Transport Ontology
 
 Introduction
 ============
-| ToDo
+| The Open Transport Ontology is a dynamic domin ontology for transportation systems modelling, updated regularly follwing a release cycle. 
+| It has been inspired by the `Open Energy Ontology <https://github.com/OpenEnergyPlatform/ontology>`_ which is developed as part of the `Open Energy Family <https://github.com/OpenEnergyPlatform>`_ 
+| The OTO is published on GitHub under an open source license. The OTO is constantly beeing extened. 
+
+Scope of this ontology 
+----------------------
+| This domain ontology is a collaborative effort to represent the context of transportation system analysis based on standard terminologies used by human experts in the field of research. It is designed to improve transparancy and facilitate data integration, comparability and transparancy of transport system modelling and scenario analyis. 
+| This ontology makes use of the `Basic Formal Ontology (BFO) <https://github.com/OpenEnergyPlatform/ontology/wiki/BFO-Upper-Ontology-Classes>`_ and its principles. It resuses serveral other ontologies. 
+
+
+
 
 Documentation
 =============
