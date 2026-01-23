@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Introduction and scope added to README.rst and to the abstract of the ontology. [(#31)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/31)
+
 ### Changed
 
 ### Removed

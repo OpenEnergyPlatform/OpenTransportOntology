@@ -20,11 +20,11 @@ Open Transport Ontology
    * - License
      - |badge_license_CC0| |badge_license_MIT|
    * - Documentation
-     - 
+     -
    * - Tests
-     - 
+     -
    * - Publication
-     - 
+     -
    * - Development
      - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community
@@ -37,7 +37,17 @@ Open Transport Ontology
 
 Introduction
 ============
-| ToDo
+| The Open Transport Ontology is a dynamic domain ontology for transportation systems modelling, updated regularly following a release cycle.
+| It has been inspired by the `Open Energy Ontology <https://github.com/OpenEnergyPlatform/ontology>`_ which is developed as part of the `Open Energy Family <https://github.com/OpenEnergyPlatform>`_
+| The OTO is published on GitHub under an open source license. The OTO is constantly being extended.
+
+Scope of this ontology
+----------------------
+| This domain ontology is a collaborative effort to represent the context of transportation system analysis based on standard terminologies used by human experts in the field of research. It is designed to improve transparency and facilitate data integration, comparability and transparency of transport system modelling and scenario analysis.
+| This ontology makes use of the `Basic Formal Ontology (BFO) <https://github.com/OpenEnergyPlatform/ontology/wiki/BFO-Upper-Ontology-Classes>`_ and its principles. It reuses several other ontologies.
+
+
+
 
 Documentation
 =============
@@ -64,7 +74,7 @@ License / Copyright
 
 Citation
 ========
-For **scientific citation** of this ontology, please refer to the `CITATION.cff <CITATION.cff>` file. 
+For **scientific citation** of this ontology, please refer to the `CITATION.cff <CITATION.cff>` file.
 
 To cite a specific class of the ontology and its definition please use the following convention:
 > 'class label' (FUll-URI) from the [Open Transport Ontology (OEO)](https://github.com/OpenEnergyPlatform/OpenTransportOntology)
