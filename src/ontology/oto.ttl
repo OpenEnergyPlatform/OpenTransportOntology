@@ -25,8 +25,8 @@
 This domain ontology is a collaborative effort to represent the context of transportation system analysis based on standard terminologies used by human experts in the field of research. It is designed to improve transparency and facilitate data integration, comparability and transparency of transport system modelling and scenario analysis. This ontology makes use of the Basic Formal Ontology (BFO) (https://github.com/OpenEnergyPlatform/ontology/wiki/BFO-Upper-Ontology-Classes) and its principles. It reuses several other ontologies."""@en ;
                         dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
                         dct:title "Open Transport Ontology" ;
-                        <http://schema.org/citation> "Cite as: Open Transport Ontology v0.1.0"@en ;
-                        owl:versionInfo "0.1.0" .
+                        <http://schema.org/citation> "Cite as: Open Transport Ontology v0.2.0"@en ;
+                        owl:versionInfo "0.2.0" .
 
 #################################################################
 #    Annotation properties
