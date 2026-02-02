@@ -32,20 +32,13 @@ jobs:
         with:
           path: '*.jar'
           key: ${{ steps.cache-dependencies.outputs.cache-primary-key }}
-
-      - name: merge ontology
+      - name: make
         run: |
-          java -jar robot.jar \
-            --catalog src/ontology/catalog-v001.xml \
-            merge \
-              --input src/ontology/oto.ttl \
-            unmerge \
-              --input-iri https://raw.githubusercontent.com/BFO-ontology/BFO/v2.0/bfo.owl \
-              --output build/oto.ttl
+            make
       - name: build documentation
         run: |
           java -jar widoco.jar \
-            -ontFile build/oto.ttl \
+            -ontFile build/oto/$(cat VERSION)/oto-full.ttl \
             -rewriteAll \
             -uniteSections \
             -noPlaceHolderText \
