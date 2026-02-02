@@ -1,7 +1,6 @@
 <!--
-SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
-SPDX-License-Identifier: MIT
+SPDX-FileCopyrightText: Open Energy Ontology (OTO) <https://github.com/OpenEnergyPlatform/OpenTransportOntology>
+SPDX-License-Identifier: CC0-1.0 OR MIT
 -->
 
 # Collaborative Development
