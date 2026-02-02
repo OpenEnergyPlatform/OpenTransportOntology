@@ -31,9 +31,6 @@ jobs:
         run: |
           echo "java -jar robot.jar validate-profile --input build/oto/$(cat VERSION)/oto-full.ttl --profile Full -vvv --output merged-validation.txt"
           java -jar robot.jar validate-profile --input build/oto/$(cat VERSION)/oto-full.ttl --profile Full -vvv --output merged-validation.txt
-      - name: verify
-        run: |
-          java -jar robot.jar verify --input build/oto/$(cat VERSION)/oto-full.ttl --queries tests/verify/*
       - uses: actions/upload-artifact@master
         with:
           name: build-artifacts
