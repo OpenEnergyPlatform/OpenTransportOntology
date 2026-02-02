@@ -15,6 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Import Extended Relations Ontology from CCO [(#23)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/23) 
+- Added MakeFile for automatic building [(#22)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/22) 
+- Added CI for PR validation [(#39)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/39) 
+
 ### Changed
 
 ### Removed
