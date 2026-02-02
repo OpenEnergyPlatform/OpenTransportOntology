@@ -108,7 +108,7 @@ endef
 
 .PHONY: all clean base merge directories
 
-all: base merge profiles closure owx
+all: base merge owx
 
 imports: ${TMP} ${TMP}/catalog.xml $(IMPORTS) $(IMPORTS)/bfo_classes_only.owl $(IMPORTS)/cco-extracted.ttl
 
@@ -117,8 +117,6 @@ base: | directories imports $(VERSIONDIR)/catalog-v001.xml robot.jar  $(TTL_COPY
 merge: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-full.ttl 
 
 owx: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-full.owx 
-
-closure: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-closure.ttl
 
 clean:
 	- $(RM) -r $(VERSIONDIR)
