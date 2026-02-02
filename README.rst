@@ -74,7 +74,7 @@ License / Copyright
 
 Citation
 ========
-For **scientific citation** of this ontology, please refer to the `CITATION.cff <CITATION.cff>` file.
+For **scientific citation** of this ontology, please refer to the `CITATION.cff <CITATION.cff>` file. 
 
 To cite a specific class of the ontology and its definition please use the following convention:
 > 'class label' (FUll-URI) from the [Open Transport Ontology (OEO)](https://github.com/OpenEnergyPlatform/OpenTransportOntology)
