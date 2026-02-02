@@ -20,6 +20,6 @@ test -f ${tmpdir}/ExtendedRelationOntology.ttl && echo "${tmpdir}/ExtendedRelati
 
 # Merging together
 
-java -jar robot.jar merge --input ${tmpdir}/ExtendedRelationOntology.ttl  annotate  --annotation rdfs:comment "This is an extract of the Common Core Ontologies: https://github.com/CommonCoreOntology/CommonCoreOntologies " --output ${imports}/cco-extracted-ro.ttl
+java -jar robot.jar merge --input ${tmpdir}/ExtendedRelationOntology.ttl  annotate  --annotation rdfs:comment "This is an extract of the Common Core Ontologies: https://github.com/CommonCoreOntology/CommonCoreOntologies " --output ${imports}/cco-extracted.ttl
 
-java -jar robot.jar annotate --input ${imports}/cco-extended-ro.ttl --ontology-iri "${iri_base}${cco_new_iri}/cco-extracted.ttl" --version-iri "${iri_base}${cco_new_version_iri}/cco-extracted.ttl" --annotation http://purl.org/dc/terms/license https://opensource.org/licenses/BSD-3-Clause --output ${imports}/cco-extracted.ttl
+java -jar robot.jar annotate --input ${imports}/cco-extended.ttl --ontology-iri "${iri_base}${cco_new_iri}/cco-extracted.ttl" --version-iri "${iri_base}${cco_new_version_iri}/cco-extracted.ttl" --annotation http://purl.org/dc/terms/license https://opensource.org/licenses/BSD-3-Clause --output ${imports}/cco-extracted.ttl
