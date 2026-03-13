@@ -13,27 +13,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+### Added
+
+
+### Changed
+
+### Removed
+
+
+## [0.2.0] - 2026-XX-YY
+
 ### Added
 
 - Import Extended Relations Ontology from CCO [(#23)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/23) 
 - Added MakeFile for automatic building [(#22)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/22) 
 - Added CI for PR validation [(#39)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/39) 
-
-### Changed
-
-### Removed
-
-
-## [0.2.0] - 2026-01-23
-
-### Added
-
 - Introduction and scope added to README.rst and to the abstract of the ontology. [(#34)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/34)
 
 ### Changed
 
+- Douple labels in en and de where changed to alternative terms in de 
+[(#30)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/30)
 ### Removed
-
 
 ## [0.1.0] - 2025-12-10
 
