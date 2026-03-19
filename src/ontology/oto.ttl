@@ -281,8 +281,8 @@ xsd:string rdf:type rdfs:Datatype .
 ###  http://w3id.org/oto/OTO_00020030
 :OTO_00020030 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
-              rdfs:label "Einstellungen zu"@de ,
-                         "attitudes to"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Einstellungen zu"@de ;
+              rdfs:label "attitudes to"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020031
@@ -296,15 +296,15 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020032 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Maut"@de ,
-                         "toll"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Maut"@de ;
+              rdfs:label "toll"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020033
 :OTO_00020033 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000019> ;
-              rdfs:label "Track charges"@en ,
-                         "Trassenentgelte"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Trassenentgelte"@de ;
+              rdfs:label "Track charges"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020034
@@ -325,8 +325,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020036 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020038 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Funktionsträger"@de ,
-                         "Officials (?)"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Funktionsträger"@de ;
+              rdfs:label "Officials (?)"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020037
@@ -348,10 +348,10 @@ xsd:string rdf:type rdfs:Datatype .
 ###  http://w3id.org/oto/OTO_00020039
 :OTO_00020039 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020038 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "Verkehrsteilnehmer (VT) im straßenverkehrsrechtlichen Sinne ist, wer öffentliche Wege, Straßen und Plätze im Rahmen des Gemeingebrauchs benutzt."@de ,
-                                                           "road user"@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "Verkehrsteilnehmer (VT) im straßenverkehrsrechtlichen Sinne ist, wer öffentliche Wege, Straßen und Plätze im Rahmen des Gemeingebrauchs benutzt."@de ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Verkehrsteilnehmer"@de ;
               <http://purl.obolibrary.org/obo/IAO_0000119> "https://de.wikipedia.org/wiki/Verkehrsteilnehmer"@de ;
-              rdfs:label "Verkehrsteilnehmer"@de .
+              rdfs:label "road user (?)"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020040
@@ -386,15 +386,15 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020044 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000017> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Geräusch"@de ,
-                         "noise"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Geräusch"@de ;
+              rdfs:label "noise"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020045
 :OTO_00020045 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020044 ;
-              rdfs:label "Lärm"@de ,
-                         "exessive noise"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Lärm"@de ;
+              rdfs:label "exessive noise"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020046
@@ -416,15 +416,15 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020048 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000016> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "" ;
-              rdfs:label "Belästigung"@de ,
-                         "disturbance"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Belästigung"@de ;
+              rdfs:label "disturbance"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020049
 :OTO_00020049 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020138 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Achslagerbeschleunigungsdaten"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Achslagerbeschleunigungsdaten"@de .
 
 
 ###  http://w3id.org/oto/OTO_00020050
@@ -452,7 +452,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020053 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020138 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Tankbuch"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Tankbuch"@de ;
+              rdfs:label "Fuel logbook"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020054
@@ -494,28 +495,32 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020059 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020138 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Raumstrukturdaten"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Raumstrukturdaten"@de ;
+              rdfs:label "spatial structure data"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020060
 :OTO_00020060 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Analysezertifikate"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Analysezertifikate"@de ;
+              rdfs:label "Axle bearing acceleration data"@en ,
+                         "analysis certificates"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020061
 :OTO_00020061 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Belüftungskonzepte"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Belüftungskonzepte"@de ;
+              rdfs:label "ventilation concept"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020062
 :OTO_00020062 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020066 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "DLR Mast ohne LSA Komponente"@de .
+              rdfs:label "DLR Mast without LSA component"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020063
@@ -567,8 +572,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020069 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020063 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Schienenfahrzeug"@de ,
-                         "train"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Schienenfahrzeug"@de ;
+              rdfs:label "train"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020070
@@ -619,7 +624,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020076 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020147 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Fahrgastunterstand"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Fahrgastunterstand"@de ;
+              rdfs:label "passenger shelter"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020077
@@ -634,7 +640,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020063 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "An air vehicle is a vehicle that is flying in the air."@en ;
               <http://purl.obolibrary.org/obo/IAO_0000118> "aircraft"@en ;
-              rdfs:label "air vehicle"@de ;
+              rdfs:label "air vehicle"@en ;
               <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010292" .
 
 
@@ -686,7 +692,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020085 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020064 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Nachladeeinrichtung"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Nachladeeinrichtung"@de ;
+              rdfs:label "relaoding mechanism"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020086
@@ -716,8 +723,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020089 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020090 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "A motorised road vehicle is a road vehicle that has a traction motor."@en ;
-              rdfs:label "Kraftfahrzeug"@de ,
-                         "motorized road vehicle"@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Kraftfahrzeug"@de ;
+              rdfs:label "motorized road vehicle"@en ;
               <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010275" .
 
 
@@ -779,7 +786,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020097 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020082 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Zählstelle"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Zählstelle"@de ;
+              rdfs:label "metering point"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020098
@@ -793,7 +801,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020099 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020064 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Boardstein"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Boardstein"@de ;
+              rdfs:label "curb"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020100
@@ -890,7 +899,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020112 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Verkehrsnetz"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Verkehrsnetz"@de ;
+              rdfs:label "Transportation network"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020113
@@ -904,14 +914,16 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020114 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020109 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Gleisinfrastruktur"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Gleisinfrastruktur"@de ;
+              rdfs:label "Railway infrastructure"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020115
 :OTO_00020115 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Verkehrsinfrastruktur"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Verkehrsinfrastruktur"@de ;
+              rdfs:label "Transportation infrastructure"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020116
@@ -959,8 +971,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020122 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000027> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Bebauung"@de ,
-                         "Built-up land"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Bebauung"@de ;
+              rdfs:label "Built-up land"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020123
@@ -1033,8 +1045,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020132 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020127 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Stadtmodell"@de ,
-                         "urban model"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Stadtmodell"@de ;
+              rdfs:label "urban model"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020133
@@ -1112,14 +1124,16 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020143 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020138 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Gleisgeometrie"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Gleisgeometrie"@de ;
+              rdfs:label "track geometry"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020144
 :OTO_00020144 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020138 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Schienenlängsprofil"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Schienenlängsprofil"@de ;
+              rdfs:label "Longitudinal rail profile"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020147
@@ -1206,7 +1220,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020157 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020138 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Gleisachse"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Gleisachse"@de ;
+              rdfs:label "track centerline"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020158
@@ -1220,22 +1235,24 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020159 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000026> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Bewegungspfad"@de ,
-                         "object track"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Bewegungspfad"@de ;
+              rdfs:label "object track"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020160
 :OTO_00020160 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000026> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Trajektoriendaten"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Trajektoriendaten"@de ;
+              rdfs:label "trajectory data"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020161
 :OTO_00020161 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000026> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Arbeitsweg"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Arbeitsweg"@de ;
+              rdfs:label "Commute"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020162
@@ -1248,7 +1265,7 @@ xsd:string rdf:type rdfs:Datatype .
 ###  http://w3id.org/oto/OTO_00020163
 :OTO_00020163 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000009> ;
-              rdfs:label "protected areas"@de .
+              rdfs:label "protected areas"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020164
@@ -1279,7 +1296,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020167 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020164 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "räumlicher interpretations- und Gültigkeitsbereich"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "räumlicher interpretations- und Gültigkeitsbereich"@de ;
+              rdfs:label "spatial scope of interpretation and validity"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020168
@@ -1451,7 +1469,7 @@ xsd:string rdf:type rdfs:Datatype .
 ###  http://w3id.org/oto/OTO_00020192
 :OTO_00020192 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020193 ;
-              rdfs:label "simulation"@de .
+              rdfs:label "simulation"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020193
@@ -1487,7 +1505,8 @@ xsd:string rdf:type rdfs:Datatype .
 :OTO_00020197 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020195 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Mauterhebung"@de .
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Mauterhebung"@de ;
+              rdfs:label "toll collection"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020198
@@ -1548,7 +1567,7 @@ xsd:string rdf:type rdfs:Datatype .
 ###  http://w3id.org/oto/OTO_00020206
 :OTO_00020206 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020205 ;
-              rdfs:label "infrastructure development#"@en .
+              rdfs:label "infrastructure development"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020207
