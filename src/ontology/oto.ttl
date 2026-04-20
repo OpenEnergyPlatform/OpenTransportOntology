@@ -534,7 +534,7 @@ xsd:string rdf:type rdfs:Datatype .
 ###  http://w3id.org/oto/OTO_00020063
 :OTO_00020063 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020064 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A vehicle is an artificial object that is used for transporting people or goods."@en ,
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A vehicle is an artificial object that is used for transporting goods or people."@en ,
                                                            "https://openenergyplatform.org/ontology/oeo/OEO_00010285"@en ;
               rdfs:label "vehicle"@en ;
               <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010023" .
