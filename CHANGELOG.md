@@ -36,10 +36,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Douple labels in en and de where changed to alternative terms in de 
 [(#43)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/43)
-- Update a definition mode of transport, air transport, ground transport, motorised transport, water transport [(#44)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/44)
-- moved motorised transport as subclass of mode of transport [(#44)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/44)
+- Update a definition mode of transport, air transport, ground transport, water transport [(#44)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/44)
+- 
 
 ### Removed
+
+- removed motorised transport as subclass of mode of transport [(#44)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/44)
 
 ## [0.1.0] - 2025-12-10
 
