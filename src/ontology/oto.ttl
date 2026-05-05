@@ -1409,23 +1409,15 @@ xsd:string rdf:type rdfs:Datatype .
 ###  http://w3id.org/oto/OTO_00020182
 :OTO_00020182 rdf:type owl:Class ;
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000144> ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A mode of transport is a method or way of traveling, or of transporting people or cargo."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A mode of transport is a method or way of traveling or of transporting participants in a journey."@en ;
               rdfs:label "mode of transport"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41"@en .
-
-
-###  http://w3id.org/oto/OTO_00020183
-:OTO_00020183 rdf:type owl:Class ;
-              rdfs:subClassOf :OTO_00020182 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "Motorised Transport is a mode of transport which uses powered propulsion systems for traction.."@en ;
-              rdfs:label "motorised transport"@en ;
               OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020184
 :OTO_00020184 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020182 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "Air transport is a mode of transport which uses airplanes."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "Air transport is a mode of transport which uses air vehicles."@en ;
               <http://purl.obolibrary.org/obo/IAO_0000118> "aviation"@en ;
               rdfs:label "air transport"@en ;
               OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41"@en .
