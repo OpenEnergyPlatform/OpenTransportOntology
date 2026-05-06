@@ -22,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 
-## [0.2.0] - 2026-XX-YY
+## [0.2.0] - 2026-05-12
 
 ### Added
 
@@ -31,13 +31,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added CI for PR validation [(#39)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/39) 
 - Introduction and scope added to README.rst and to the abstract of the ontology. [(#34)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/34)
 - Add a new class rail transport, road rantransport [(#44)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/44)
-
+- added New classes means of transport, air drone, ground drone, space drone, water drone, motorised vehicle, trailer, space vehicle, ship [[(#52)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/52)]
 ### Changed
 
 - Douple labels in en and de where changed to alternative terms in de 
 [(#43)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/43)
 - Update a definition mode of transport, air transport, ground transport, motorised transport, water transport [(#44)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/44)
 - moved motorised transport as subclass of mode of transport [(#44)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/44)
+- Updated classes: vehicle, air vehicle, airplane, helicopter, road vehicle, automobile, bicycle, bus, motorcycle, truck, trailer truck, water vehicle [[(#52)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/52)]
 
 ### Removed
 
