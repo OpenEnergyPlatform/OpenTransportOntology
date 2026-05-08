@@ -1,7 +1,7 @@
 ONTOLOGY_NAME := oto
 IRI_NAME := OpenTransportOntology
 
-IRI_PLACEHOLDER := http:\/\/w3id.org\/
+IRI_PLACEHOLDER := https:\/\/w3id.org\/
 IRI_BASE := https:\/\/openenergyplatform.github.io\/
 
 IRI_ONTOLOGY_PLACEHOLDER := $(IRI_PLACEHOLDER)$(ONTOLOGY_NAME)
@@ -114,9 +114,9 @@ imports: ${TMP} ${TMP}/catalog.xml $(IMPORTS) $(IMPORTS)/bfo_classes_only.owl $(
 
 base: | directories imports $(VERSIONDIR)/catalog-v001.xml robot.jar  $(TTL_COPY) $(OWL_COPY) $(OWLVERSION) $(TTL_TRANSLATE)
 
-merge: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-full.ttl 
+merge: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-full.ttl
 
-owx: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-full.owx 
+owx: | $(VERSIONDIR)/$(ONTOLOGY_NAME)-full.owx
 
 clean:
 	- $(RM) -r $(VERSIONDIR)
@@ -129,7 +129,7 @@ directories: ${VERSIONDIR}/imports ${VERSIONDIR}/modules ${TMP} $(VERSIONDIR)/ow
 
 $(IMPORTS):
 	${MKDIR_P} ${IMPORTS}
-	
+
 $(IMPORTS)/bfo_classes_only.owl:
 	curl -L -o $@ $(BFO_SOURCE)
 
