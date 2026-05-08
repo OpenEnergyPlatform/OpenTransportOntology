@@ -1,7 +1,7 @@
 ONTOLOGY_NAME := oto
 IRI_NAME := OpenTransportOntology
 
-IRI_PLACEHOLDER := http:\/\/w3id.org\/
+IRI_PLACEHOLDER := https:\/\/w3id.org\/
 IRI_BASE := https:\/\/openenergyplatform.github.io\/
 
 IRI_ONTOLOGY_PLACEHOLDER := $(IRI_PLACEHOLDER)$(ONTOLOGY_NAME)
@@ -12,7 +12,7 @@ VERSION:= $(shell cat VERSION)
 VERSIONDIR := build/$(ONTOLOGY_NAME)/$(VERSION)
 ONTOLOGY_SOURCE := src/ontology
 SCRIPTS := src/scripts
-BFO_SOURCE := https://raw.githubusercontent.com/BFO-ontology/BFO/v2019-08-26/bfo_classes_only.owl
+BFO_SOURCE := s://raw.githubusercontent.com/BFO-ontology/BFO/v2019-08-26/bfo_classes_only.owl
 TMP := tmp
 IMPORTS := $(ONTOLOGY_SOURCE)/imports
 
