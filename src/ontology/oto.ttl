@@ -533,11 +533,13 @@ xsd:string rdf:type rdfs:Datatype .
 
 ###  http://w3id.org/oto/OTO_00020063
 :OTO_00020063 rdf:type owl:Class ;
-              rdfs:subClassOf :OTO_00020064 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A vehicle is an artificial object that is used for transporting people or goods."@en ,
-                                                           "https://openenergyplatform.org/ontology/oeo/OEO_00010285"@en ;
+              rdfs:subClassOf :OTO_00020211 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A vehicle is a means of transport which is built to transport participants in a journey."@en ;
               rdfs:label "vehicle"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010023" .
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "http://schema.org/Vehicle" ,
+                                                               "http://www.ontologyrepository.com/CommonCoreOntologies/Vehicle" ,
+                                                               "https://openenergyplatform.org/ontology/oeo/OEO_00010023" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020064
@@ -614,18 +616,21 @@ xsd:string rdf:type rdfs:Datatype .
 
 ###  http://w3id.org/oto/OTO_00020074
 :OTO_00020074 rdf:type owl:Class ;
-              rdfs:subClassOf :OTO_00020089 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ,
-                                                           "A truck is a motorised road vehicle that is used for freight transport." ;
+              rdfs:subClassOf :OTO_00020090 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A truck is a road vehicle designed to transport freight, carry specialized payloads of perform other utilitarian work."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "lorry"@en ;
               rdfs:label "truck"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010278" .
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01000602" ,
+                                                               "https://openenergyplatform.org/ontology/oeo/OEO_00010278" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020075
 :OTO_00020075 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020074 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "trailer truck"@en .
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A trailer truck is a truck that as an additional trailer."@en ;
+              rdfs:label "trailer truck"@en ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020076
@@ -646,33 +651,41 @@ xsd:string rdf:type rdfs:Datatype .
 ###  http://w3id.org/oto/OTO_00020078
 :OTO_00020078 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020063 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "An air vehicle is a vehicle that is flying in the air."@en ;
-              <http://purl.obolibrary.org/obo/IAO_0000118> "aircraft"@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "An air vehicle is a vehicle that is able to fly by gaining support from the air."@en ;
               rdfs:label "air vehicle"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010292" .
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01001488" ,
+                                                               "http://www.ontologyrepository.com/CommonCoreOntologies/Aircraft" ,
+                                                               "https://openenergyplatform.org/ontology/oeo/OEO_00010292" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020079
 :OTO_00020079 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020078 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A helicopter is an air vehicle that has rotating wings."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A helicopter is a type of air vehicle in which lift and thrust are supplied by spinning rotors."@en ;
               rdfs:label "helicopter"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010294" .
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010294" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020080
 :OTO_00020080 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020078 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "An airplane is an air vehicle that has fixed wings."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "An airplane is a fixed wing air vehicle that flies through the air."@en ;
               rdfs:label "airplane"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010293" .
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010293" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020081
 :OTO_00020081 rdf:type owl:Class ;
-              rdfs:subClassOf :OTO_00020089 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> ""@en ;
-              rdfs:label "Car"@en .
+              rdfs:subClassOf :OTO_00020090 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "An Automobile is a road vehicle with a motor and wheels which drives on roads. They primarily transport passengers."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "car"@en ;
+              rdfs:label "automobile"@en ;
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "http://www.ontologyrepository.com/CommonCoreOntologies/Automobile" ,
+                                                               "https://openenergyplatform.org/ontology/oeo/OEO_00010276" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020082
@@ -721,59 +734,61 @@ xsd:string rdf:type rdfs:Datatype .
 ###  http://w3id.org/oto/OTO_00020088
 :OTO_00020088 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020063 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A waterborne vehicle is a vehicle that is driving through water."@en ;
-              <http://purl.obolibrary.org/obo/IAO_0000118> "watercraft"@en ;
-              rdfs:label "waterborne vehicle"@de ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010285" .
-
-
-###  http://w3id.org/oto/OTO_00020089
-:OTO_00020089 rdf:type owl:Class ;
-              rdfs:subClassOf :OTO_00020090 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A motorised road vehicle is a road vehicle that has a traction motor."@en ;
-              <http://purl.obolibrary.org/obo/IAO_0000118> "Kraftfahrzeug"@de ;
-              rdfs:label "motorized road vehicle"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010275" .
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A water vehicle is a vehicle that traveling on or in water."@en ;
+              rdfs:label "water vehicle"@en ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020090
 :OTO_00020090 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020063 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A road vehicle is a vehicle that uses roads."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A road vehicle is a vehicle that travels on roads."@en ;
               rdfs:label "road vehicle"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010274" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020091
 :OTO_00020091 rdf:type owl:Class ;
-              rdfs:subClassOf :OTO_00020089 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A motorcycle is a motorised road vehicle that has two wheels."@en ;
+              rdfs:subClassOf :OTO_00020090 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A motorcycle is a two or three-wheeled motor vehicle."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "bike"@en ,
+                                                           "motorbike"@en ,
+                                                           "trike"@en ;
               rdfs:label "motorcycle"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010284" .
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01000615" ,
+                                                               "http://www.ontologyrepository.com/CommonCoreOntologies/Motorcycle" ,
+                                                               "https://openenergyplatform.org/ontology/oeo/OEO_00010284" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020092
 :OTO_00020092 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020090 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A bicycle is a road vehicle that has two wheels and is propelled by a person."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A bicycle is a human powered pedal driven single track road vehicle with two wheels attached to a frame, one behind the other."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "Bike"@en ;
               rdfs:label "bicycle"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010279" .
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01000614" ,
+                                                               "http://www.ontologyrepository.com/CommonCoreOntologies/Bicycle" ,
+                                                               "https://openenergyplatform.org/ontology/oeo/OEO_00010279" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020093
 :OTO_00020093 rdf:type owl:Class ;
               rdfs:subClassOf :OTO_00020092 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "An e-bike is a bicycle that is propelled by a person and an electric traction motor."@en ;
-              rdfs:label "e-bike"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010283" .
+              rdfs:label "e-bike"@en .
 
 
 ###  http://w3id.org/oto/OTO_00020094
 :OTO_00020094 rdf:type owl:Class ;
-              rdfs:subClassOf :OTO_00020089 ;
-              <http://purl.obolibrary.org/obo/IAO_0000115> "A bus is a motorised road vehicle that is used for passenger transport and has more than eight seats."@en ;
+              rdfs:subClassOf :OTO_00020090 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A bus is a road vehicle that transports significantly more passengers than an average automobile."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "autobus"@en ,
+                                                           "omnibus"@en ;
               rdfs:label "bus"@en ;
-              <http://www.w3.org/2004/02/skos/core#exactMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010277" .
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01000611" ,
+                                                               "https://openenergyplatform.org/ontology/oeo/OEO_00010277" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  http://w3id.org/oto/OTO_00020095
@@ -1607,6 +1622,94 @@ xsd:string rdf:type rdfs:Datatype .
               <http://purl.obolibrary.org/obo/IAO_0000115> "Road transport is a mode of transport which occurs on roads."@en ;
               rdfs:label "road transport"@en ;
               OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41" .
+
+
+###  http://w3id.org/oto/OTO_00020211
+:OTO_00020211 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020064 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "Means of transport are transport facilities used to transport participants in a journey."@en ;
+              rdfs:label "Means of Transport"@en ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+
+
+###  http://w3id.org/oto/OTO_00020212
+:OTO_00020212 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020063 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A space vehicle is a vehicle that is designed to travel and operate in outer space." ;
+              rdfs:label "space vehicle"@en ;
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01003000" ,
+                                                               "http://www.ontologyrepository.com/CommonCoreOntologies/Spacecraft" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+
+
+###  http://w3id.org/oto/OTO_00020213
+:OTO_00020213 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020063 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A drone is an vehicle with no human pilot, crew, or passengers on board, but rather is controlled remotely or is autonomous." ;
+              rdfs:label "drone"@en ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+
+
+###  http://w3id.org/oto/OTO_00020214
+:OTO_00020214 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020213 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "An air drone is a drone which flies in the air." ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "unmanned aircraft system"@en ;
+              rdfs:label "air drone"@en ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+
+
+###  http://w3id.org/oto/OTO_00020215
+:OTO_00020215 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020213 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A ground drone is a drone which moves along the ground."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "unmanned areal vehicle"@en ;
+              rdfs:label "ground drone"@en ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+
+
+###  http://w3id.org/oto/OTO_00020216
+:OTO_00020216 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020213 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A water drone is a drone which moves in or on water."@en ;
+              rdfs:label "water drone"@en ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+
+
+###  http://w3id.org/oto/OTO_00020217
+:OTO_00020217 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020213 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A space drone is a drone which moves in outer space."@en ;
+              rdfs:label "space drone"@en ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+
+
+###  http://w3id.org/oto/OTO_00020218
+:OTO_00020218 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020088 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A ship is a water vehicle designed for travel across the surface of a body of water."@en ;
+              <http://purl.obolibrary.org/obo/IAO_0000118> "boat"@en ,
+                                                           "waterborn vehicle"@en ;
+              rdfs:label "ship"@en ;
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010286" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+
+
+###  http://w3id.org/oto/OTO_00020219
+:OTO_00020219 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020063 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A motorised vehicle is a vehicle that uses a motor for propulsion."@en ;
+              rdfs:label "motorised vehicle"@en ;
+              <http://www.w3.org/2004/02/skos/core#closeMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010291/" ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+
+
+###  http://w3id.org/oto/OTO_00020220
+:OTO_00020220 rdf:type owl:Class ;
+              rdfs:subClassOf :OTO_00020090 ;
+              <http://purl.obolibrary.org/obo/IAO_0000115> "A trailer is a non-self propelled vehicle that is designed and constructed to be towed by a power driven vehicle."@en ;
+              rdfs:label "trailer"@en ;
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
 
 
 ###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
