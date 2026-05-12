@@ -30,10 +30,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added MakeFile for automatic building [(#22)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/22) 
 - Added CI for PR validation [(#39)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/39) 
 - Introduction and scope added to README.rst and to the abstract of the ontology. [(#34)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/34)
-- Add new class rail transport, road rantransport [(#44)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/44)
+- Add new class rail transport, road transport [(#44)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/44)
 - Add new classes means of transport, air drone, ground drone, space drone, water drone, motorised vehicle, trailer, space vehicle, ship [(#52)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/52)
-### Changed
 
+### Changed
 - Double labels in en and de where changed to alternative terms in de 
 [(#43)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/43)
 - Update a definition mode of transport, air transport, ground transport, motorised transport, water transport [(#44)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/44)
