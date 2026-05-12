@@ -1,5 +1,5 @@
 ONTOLOGY_NAME := oto
-IRI_NAME := OpenTransportOntology
+IRI_NAME := open-transport-ontology
 
 IRI_PLACEHOLDER := https:\/\/w3id.org\/
 IRI_BASE := https:\/\/openenergyplatform.github.io\/

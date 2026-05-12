@@ -64,7 +64,7 @@ rdfs:comment rdf:type owl:AnnotationProperty .
 OEO:OEO_00020426 rdf:type owl:AnnotationProperty ;
                  <http://purl.obolibrary.org/obo/IAO_0000115> "Road transport is a mode of transport which uses wheeled vehicles on roads."@en ;
                  rdfs:label "term tracker annotation"@en ;
-                 OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41" ;
+                 OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/41" ;
                  rdfs:subPropertyOf <http://purl.obolibrary.org/obo/IAO_0000116> .
 
 
@@ -539,7 +539,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://www.w3.org/2004/02/skos/core#closeMatch> "http://schema.org/Vehicle" ,
                                                                "http://www.ontologyrepository.com/CommonCoreOntologies/Vehicle" ,
                                                                "https://openenergyplatform.org/ontology/oeo/OEO_00010023" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020064
@@ -622,7 +622,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:label "truck"@en ;
               <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01000602" ,
                                                                "https://openenergyplatform.org/ontology/oeo/OEO_00010278" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020075
@@ -630,7 +630,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020074 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "A trailer truck is a truck that as an additional trailer."@en ;
               rdfs:label "trailer truck"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020076
@@ -656,7 +656,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01001488" ,
                                                                "http://www.ontologyrepository.com/CommonCoreOntologies/Aircraft" ,
                                                                "https://openenergyplatform.org/ontology/oeo/OEO_00010292" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020079
@@ -665,7 +665,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://purl.obolibrary.org/obo/IAO_0000115> "A helicopter is a type of air vehicle in which lift and thrust are supplied by spinning rotors."@en ;
               rdfs:label "helicopter"@en ;
               <http://www.w3.org/2004/02/skos/core#closeMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010294" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020080
@@ -674,7 +674,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://purl.obolibrary.org/obo/IAO_0000115> "An airplane is a fixed wing air vehicle that flies through the air."@en ;
               rdfs:label "airplane"@en ;
               <http://www.w3.org/2004/02/skos/core#closeMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010293" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020081
@@ -685,7 +685,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:label "automobile"@en ;
               <http://www.w3.org/2004/02/skos/core#closeMatch> "http://www.ontologyrepository.com/CommonCoreOntologies/Automobile" ,
                                                                "https://openenergyplatform.org/ontology/oeo/OEO_00010276" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020082
@@ -736,7 +736,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020063 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "A water vehicle is a vehicle that traveling on or in water."@en ;
               rdfs:label "water vehicle"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020090
@@ -744,7 +744,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020063 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "A road vehicle is a vehicle that travels on roads."@en ;
               rdfs:label "road vehicle"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020091
@@ -758,7 +758,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01000615" ,
                                                                "http://www.ontologyrepository.com/CommonCoreOntologies/Motorcycle" ,
                                                                "https://openenergyplatform.org/ontology/oeo/OEO_00010284" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020092
@@ -770,7 +770,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01000614" ,
                                                                "http://www.ontologyrepository.com/CommonCoreOntologies/Bicycle" ,
                                                                "https://openenergyplatform.org/ontology/oeo/OEO_00010279" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020093
@@ -788,7 +788,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:label "bus"@en ;
               <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01000611" ,
                                                                "https://openenergyplatform.org/ontology/oeo/OEO_00010277" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020095
@@ -1426,7 +1426,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000144> ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "A mode of transport is a method or way of traveling or of transporting participants in a journey."@en ;
               rdfs:label "mode of transport"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41"@en .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/41"@en .
 
 
 ###  https://w3id.org/oto/OTO_00020184
@@ -1435,7 +1435,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://purl.obolibrary.org/obo/IAO_0000115> "Air transport is a mode of transport which uses air vehicles."@en ;
               <http://purl.obolibrary.org/obo/IAO_0000118> "aviation"@en ;
               rdfs:label "air transport"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41"@en .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/41"@en .
 
 
 ###  https://w3id.org/oto/OTO_00020185
@@ -1445,7 +1445,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://purl.obolibrary.org/obo/IAO_0000118> "sea transport"@en ,
                                                            "ship transport"@en ;
               rdfs:label "water transport"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41"@en .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/41"@en .
 
 
 ###  https://w3id.org/oto/OTO_00020186
@@ -1453,7 +1453,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020182 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "Ground transport is a mode of transport which occurs on a solid surface.."@en ;
               rdfs:label "ground transport"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41"@en .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/41"@en .
 
 
 ###  https://w3id.org/oto/OTO_00020187
@@ -1613,7 +1613,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020182 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "Rail transport is a mode of transport which uses wheeled vehicles on rail tracks."@en ;
               rdfs:label "rail transport"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41"@en .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/41"@en .
 
 
 ###  https://w3id.org/oto/OTO_00020210
@@ -1621,7 +1621,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020182 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "Road transport is a mode of transport which occurs on roads."@en ;
               rdfs:label "road transport"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/41" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/41" .
 
 
 ###  https://w3id.org/oto/OTO_00020211
@@ -1629,7 +1629,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020064 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "Means of transport are transport facilities used to transport participants in a journey."@en ;
               rdfs:label "Means of Transport"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020212
@@ -1639,7 +1639,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:label "space vehicle"@en ;
               <http://www.w3.org/2004/02/skos/core#closeMatch> "http://purl.obolibrary.org/obo/ENVO_01003000" ,
                                                                "http://www.ontologyrepository.com/CommonCoreOntologies/Spacecraft" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020213
@@ -1647,7 +1647,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020063 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "A drone is an vehicle with no human pilot, crew, or passengers on board, but rather is controlled remotely or is autonomous." ;
               rdfs:label "drone"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020214
@@ -1656,7 +1656,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://purl.obolibrary.org/obo/IAO_0000115> "An air drone is a drone which flies in the air." ;
               <http://purl.obolibrary.org/obo/IAO_0000118> "unmanned aircraft system"@en ;
               rdfs:label "air drone"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020215
@@ -1665,7 +1665,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://purl.obolibrary.org/obo/IAO_0000115> "A ground drone is a drone which moves along the ground."@en ;
               <http://purl.obolibrary.org/obo/IAO_0000118> "unmanned areal vehicle"@en ;
               rdfs:label "ground drone"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020216
@@ -1673,7 +1673,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020213 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "A water drone is a drone which moves in or on water."@en ;
               rdfs:label "water drone"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020217
@@ -1681,7 +1681,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020213 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "A space drone is a drone which moves in outer space."@en ;
               rdfs:label "space drone"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020218
@@ -1692,7 +1692,7 @@ xsd:string rdf:type rdfs:Datatype .
                                                            "waterborn vehicle"@en ;
               rdfs:label "ship"@en ;
               <http://www.w3.org/2004/02/skos/core#closeMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010286" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020219
@@ -1701,7 +1701,7 @@ xsd:string rdf:type rdfs:Datatype .
               <http://purl.obolibrary.org/obo/IAO_0000115> "A motorised vehicle is a vehicle that uses a motor for propulsion."@en ;
               rdfs:label "motorised vehicle"@en ;
               <http://www.w3.org/2004/02/skos/core#closeMatch> "https://openenergyplatform.org/ontology/oeo/OEO_00010291/" ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  https://w3id.org/oto/OTO_00020220
@@ -1709,7 +1709,7 @@ xsd:string rdf:type rdfs:Datatype .
               rdfs:subClassOf :OTO_00020090 ;
               <http://purl.obolibrary.org/obo/IAO_0000115> "A trailer is a non-self propelled vehicle that is designed and constructed to be towed by a power driven vehicle."@en ;
               rdfs:label "trailer"@en ;
-              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/42" .
+              OEO:OEO_00020426 "https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/42" .
 
 
 ###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi

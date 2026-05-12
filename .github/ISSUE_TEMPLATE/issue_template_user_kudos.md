@@ -13,7 +13,7 @@ assignees: ""
 ---
 
 I thank the developers of the project. <br>
-Please add my information to the file [USERS.cff](https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/USERS.cff).
+Please add my information to the file [USERS.cff](https://github.com/OpenEnergyPlatform/open-transport-ontology/blob/production/USERS.cff).
 
 family-names:
 given-names:

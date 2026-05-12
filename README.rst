@@ -3,9 +3,9 @@
   SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
   SPDX-License-Identifier: MIT
 
-.. figure:: https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/develop/docs/img/OTO_Banner.png
+.. figure:: https://github.com/OpenEnergyPlatform/open-transport-ontology/blob/develop/docs/img/OTO_Banner.png
     :align: left
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/
+    :target: https://github.com/OpenEnergyPlatform/open-transport-ontology/
     :alt: Repo logo
 
 =======================
@@ -57,27 +57,27 @@ Documentation
 Collaboration
 =============
 | Everyone is invited to develop this repository with good intentions.
-| Please follow the workflow described in the `CONTRIBUTING.md <https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/CONTRIBUTING.md>`_.
+| Please follow the workflow described in the `CONTRIBUTING.md <https://github.com/OpenEnergyPlatform/open-transport-ontology/blob/production/CONTRIBUTING.md>`_.
 
 Contributors:
 
-.. figure:: https://contrib.rocks/image?repo=OpenEnergyPlatform/OpenTransportOntology
+.. figure:: https://contrib.rocks/image?repo=OpenEnergyPlatform/open-transport-ontology
     :align: left
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/graphs/contributors
+    :target: https://github.com/OpenEnergyPlatform/open-transport-ontology/graphs/contributors
     :alt: [contrib.rocks](https://contrib.rocks)
 
 License / Copyright
 ====================
 | This repository is **dual-licensed** under `Creative Commons Zero v1.0 Universal (CC0-1.0) <https://creativecommons.org/publicdomain/zero/1.0/legalcode>` or `MIT License (MIT) <https://opensource.org/license/mit>`.
 | You can choose between one of them if you use this work.
-| Copyright: `Open Transport Ontology <https://github.com/OpenEnergyPlatform/OpenTransportOntology/>`_ | `CC0-1.0 <LICENSE-CCO.txt>`_ | `MIT <LICENSE-MIT.txt>`_
+| Copyright: `Open Transport Ontology <https://github.com/OpenEnergyPlatform/open-transport-ontology/>`_ | `CC0-1.0 <LICENSE-CCO.txt>`_ | `MIT <LICENSE-MIT.txt>`_
 
 Citation
 ========
 For **scientific citation** of this ontology, please refer to the `CITATION.cff <CITATION.cff>` file. 
 
 To cite a specific class of the ontology and its definition please use the following convention:
-> 'class label' (FUll-URI) from the [Open Transport Ontology (OEO)](https://github.com/OpenEnergyPlatform/OpenTransportOntology)
+> 'class label' (FUll-URI) from the [Open Transport Ontology (OEO)](https://github.com/OpenEnergyPlatform/open-transport-ontology)
 
 
 .. |badge_license_CC0| image:: https://img.shields.io/badge/License-CC0%201.0-green.svg
@@ -88,30 +88,30 @@ To cite a specific class of the ontology and its definition please use the follo
     :target: https://opensource.org/license/mit
     :alt: License MIT
 
-.. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/OpenTransportOntology
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues
+.. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/open-transport-ontology
+    :target: https://github.com/OpenEnergyPlatform/open-transport-ontology/issues
     :alt: Open Issues
 
-.. |badge_issue_closes| image:: https://img.shields.io/github/issues-closed-raw/OpenEnergyPlatform/OpenTransportOntology
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues?q=is%3Aissue+is%3Aclosed
+.. |badge_issue_closes| image:: https://img.shields.io/github/issues-closed-raw/OpenEnergyPlatform/open-transport-ontology
+    :target: https://github.com/OpenEnergyPlatform/open-transport-ontology/issues?q=is%3Aissue+is%3Aclosed
     :alt: Closed Issues
 
-.. |badge_pr_open| image:: https://img.shields.io/github/issues-pr-raw/OpenEnergyPlatform/OpenTransportOntology
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/pulls
+.. |badge_pr_open| image:: https://img.shields.io/github/issues-pr-raw/OpenEnergyPlatform/open-transport-ontology
+    :target: https://github.com/OpenEnergyPlatform/open-transport-ontology/pulls
     :alt: Open PR
 
-.. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/OpenEnergyPlatform/OpenTransportOntology
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/pulls?q=is%3Apr+is%3Aclosed
+.. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/OpenEnergyPlatform/open-transport-ontology
+    :target: https://github.com/OpenEnergyPlatform/open-transport-ontology/pulls?q=is%3Apr+is%3Aclosed
     :alt: Closed PR
 
 .. |badge_contributions| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/CONTRIBUTING.md
+    :target: https://github.com/OpenEnergyPlatform/open-transport-ontology/blob/production/CONTRIBUTING.md
     :alt: Contributions
 
-.. |badge_contributors| image:: https://img.shields.io/github/contributors/OpenEnergyPlatform/OpenTransportOntology
-    :target: https://github.com/OpenEnergyPlatform/OpenTransportOntology/graphs/contributors
+.. |badge_contributors| image:: https://img.shields.io/github/contributors/OpenEnergyPlatform/open-transport-ontology
+    :target: https://github.com/OpenEnergyPlatform/open-transport-ontology/graphs/contributors
     :alt: Contributors
 
-.. |badge_repo_counts| image:: https://hits.sh/github.com/OpenEnergyPlatform/OpenTransportOntology.svg
-    :target: https://hits.sh/github.com/OpenEnergyPlatform/OpenTransportOntology/
+.. |badge_repo_counts| image:: https://hits.sh/github.com/OpenEnergyPlatform/open-transport-ontology.svg
+    :target: https://hits.sh/github.com/OpenEnergyPlatform/open-transport-ontology/
     :alt: Hits
