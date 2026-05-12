@@ -27,11 +27,11 @@ It always has the format `YYYY-MM-DD`, for example `2022-05-16`.
 Following the Semantic Versioning, different workflows for Major, Minor, or Patch
 releases are possible. <br>
 For Major and Minor releases, follow the complete workflow.<br>
-For a **Patch Release** (Hotfix), start at [section 3](https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
+For a **Patch Release** (Hotfix), start at [section 3](https://github.com/OpenEnergyPlatform/open-transport-ontology/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
 
 ### 1. 🐙 Create a `GitHub Project`
 
-- Create [New classic project](https://github.com/OpenEnergyPlatform/OpenTransportOntology/projects?type=classic)
+- Create [New classic project](https://github.com/OpenEnergyPlatform/open-transport-ontology/projects?type=classic)
 - Use the project template _Automated kanban with reviews_
 - Named `oto-v0.1.0`
 - Add a meaningful description
@@ -50,7 +50,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/OpenEn
 
 ### 3. 🐙 Create a `GitHub Issue`
 
-- Use [`📝issue_template_release`](https://github.com/OpenEnergyPlatform/OpenTransportOntology/issues/new?template=issue_template_release.md)
+- Use [`📝issue_template_release`](https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/new?template=issue_template_release.md)
 - Name `Release - Minor Version - 0.1.0`
 - Complete the necessary details from the template
 
@@ -59,7 +59,7 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/OpenEn
 ### 4. 🐙 Create a `Draft GitHub Release`
 
 - Start here for a **Patch Release** (Hotfix)
-- [Draft a new release](https://github.com/OpenEnergyPlatform/OpenTransportOntology/releases/new)
+- [Draft a new release](https://github.com/OpenEnergyPlatform/open-transport-ontology/releases/new)
 - Enter the release version number `0.1.0` as title
 - Summarize key changes from changelog in the description
 
@@ -69,8 +69,8 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/OpenEn
 ### Changed
 ### Removed
 
-**Complete changelog:** [CHANGELOG.md](https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/production/CHANGELOG.md)
-**Compare versions:** [0.1.0 - 0.2.0](https://github.com/OpenEnergyPlatform/OpenTransportOntology/compare/v0.1.0...v0.2.0)
+**Complete changelog:** [CHANGELOG.md](https://github.com/OpenEnergyPlatform/open-transport-ontology/blob/production/CHANGELOG.md)
+**Compare versions:** [0.1.0 - 0.2.0](https://github.com/OpenEnergyPlatform/open-transport-ontology/compare/v0.1.0...v0.2.0)
 **Main developers:** @Ludee @jh-RLI
 ```
 
@@ -141,7 +141,7 @@ If you messed up, remove tags and start again
 
 #### 🐙 Automated Release with GitHub Action
 
-- Check [GitHub Action](https://github.com/OpenEnergyPlatform/OpenTransportOntology/actions/workflows/publish_pypi.yml)
+- Check [GitHub Action](https://github.com/OpenEnergyPlatform/open-transport-ontology/actions/workflows/publish_pypi.yml)
 - The GitHub release starts the automated upload to PyPI
 - Check on PyPI if release arrived
 - If automated released failed, release manually
@@ -160,7 +160,7 @@ If you messed up, remove tags and start again
 
 ### 11. 🐙 Set up new development
 
-- Create a [Pull Request](https://github.com/OpenEnergyPlatform/OpenTransportOntology/compare) from `production` to `develop`
+- Create a [Pull Request](https://github.com/OpenEnergyPlatform/open-transport-ontology/compare) from `production` to `develop`
 - Named `Set up new development after release v0.1.0`
 - Checkout `develop` branch and pull
 - Create a new **Unreleased** section in the `📝CHANGELOG.md`
@@ -176,7 +176,7 @@ If you messed up, remove tags and start again
 ```
 
 - Close all solved issues and PR and set tags and status
-- Create a new [GitHub Project](https://github.com/OpenEnergyPlatform/OpenTransportOntology/projects?query=is%3Aopen) by cloning the latest project
+- Create a new [GitHub Project](https://github.com/OpenEnergyPlatform/open-transport-ontology/projects?query=is%3Aopen) by cloning the latest project
 
 ▶️ Continue the developments 🛠
 
