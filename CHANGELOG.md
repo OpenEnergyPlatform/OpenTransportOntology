@@ -25,7 +25,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.2.0] - 2026-05-12
 
 ### Added
-
 - Import Extended Relations Ontology from CCO [(#23)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/23) 
 - Added MakeFile for automatic building [(#22)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/22) 
 - Added CI for PR validation [(#39)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/39) 
@@ -40,9 +39,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Moved motorised transport as subclass of mode of transport [(#44)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/44)
 - Updated classes: vehicle, air vehicle, airplane, helicopter, road vehicle, automobile, bicycle, bus, motorcycle, truck, trailer truck, water vehicle [(#52)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/52)
 - All IRIs have been changed from http://w3id.org/oto/ to  https://w3id.org/oto/ [(#55)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/55)
+- Rename repo name from OpenTransportOntology to open-transport-ontology according to ENERO naming conventions [(#58)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/58)
 
 ### Removed
-
 - Remove motorised transport as subclass of mode of transport [(#44)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/44)
 
 ## [0.1.0] - 2025-12-10
