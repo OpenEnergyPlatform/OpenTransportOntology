@@ -25,7 +25,7 @@ Describe the release in as much detail as possible.
 
 ## Workflow checklist
 
-- [ ] I am aware of the workflow in [RELEASE_PROCEDURE.md](https://github.com/OpenEnergyPlatform/OpenTransportOntology//blob/production/RELEASE_PROCEDURE.md)
+- [ ] I am aware of the workflow in [RELEASE_PROCEDURE.md](https://github.com/OpenEnergyPlatform/open-transport-ontology//blob/production/RELEASE_PROCEDURE.md)
 - [ ] 4. 🐙 Create a `Draft GitHub Release`
 - [ ] 5. 💠 Create a `release` branch
 - [ ] 6. 📝 Update the version files (CHANGELOG.md, CITATION.cff)

@@ -1,23 +1,38 @@
-# SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-FileCopyrightText: Open Transport Ontology <https://github.com/OpenEnergyPlatform/open-transport-ontology>
+# SPDX-License-Identifier: CC0-1.0 OR MIT
 
 cff-version: 1.2.0
 message: "If you use this software, please cite it using these metadata."
 authors:
+  - family-names: "Hoyer-Click"
+    given-names: "Carsten"
+    alias: "carstenhoyerklick"
+    affiliation: "DLR"
+    orcid: "https://orcid.org/0000-0002-7273-9176"
   - family-names: "Hülk"
     given-names: "Ludwig"
     alias: "Ludee"
     affiliation: "Reiner Lemoine Institut"
     orcid: "https://orcid.org/0000-0003-4655-2321"
-  - family-names: "Hoyer-Click"
-    given-names: "Carsten"
-    alias: "carstenhoyerklick"
-    affiliation: "DLR"
-    orcid: ""
+  - family-names: "Schindler"
+    given-names: "Sirko"
+    alias: "SirkoS"
+    affiliation: "German Aerospace Center (DLR), Institute of Data Science, Jena."
+    orcid: "https://orcid.org/0000-0002-0964-4457"
+  - family-names: "Krajzewicz"
+    given-names: "Daniel"
+    alias: "dkrajzew"
+    affiliation: "German Aerospace Center (DLR), Institute of Transport Research, Berlin."
+    orcid: "https://orcid.org/0000-0003-1045-8800"
+  - family-names: "Stappel"
+    given-names: "Mirjam"
+    alias: "@stap-m"
+    affiliation: "Universität Osnabrück"
+    orcid: "https://orcid.org/0000-0003-3722-5564"
 title: "Open Transport Ontology (OTO)"
 type: software
-license: CC0-1.0
-version: 0.0.1
+license: CC0-1.0 OR MIT
+version: 0.2.0
 doi: null
-date-released: 2024-12-19
-url: "https://github.com/OpenEnergyPlatform/OpenTransportOntology/"
+date-released: 2026-05-12
+url: "https://github.com/OpenEnergyPlatform/open-transport-ontology/"

@@ -1,9 +1,7 @@
 <!--
 SPDX-FileCopyrightText: 2022 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
 SPDX-License-Identifier: MIT
-
-[Homepage]: https://rl-institut.github.io/super-repo/
-[Version]: [Super-Repository v0.2.0](https://github.com/rl-institut/super-repo/releases)
 -->
 
 # Release Procedure
@@ -29,13 +27,13 @@ It always has the format `YYYY-MM-DD`, for example `2022-05-16`.
 Following the Semantic Versioning, different workflows for Major, Minor, or Patch
 releases are possible. <br>
 For Major and Minor releases, follow the complete workflow.<br>
-For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-institut/super-repo/blob/main/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
+For a **Patch Release** (Hotfix), start at [section 3](https://github.com/OpenEnergyPlatform/open-transport-ontology/blob/production/RELEASE_PROCEDURE.md#4--create-a-draft-github-release).
 
 ### 1. 🐙 Create a `GitHub Project`
 
-- Create [New classic project](https://github.com/OpenEnergyPlatform/OpenTransportOntology/projects?type=classic)
+- Create [New classic project](https://github.com/OpenEnergyPlatform/open-transport-ontology/projects?type=classic)
 - Use the project template _Automated kanban with reviews_
-- Named `super-repo-v0.1.0`
+- Named `oto-v0.1.0`
 - Add a meaningful description
 - Track project progress
 
@@ -52,16 +50,16 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 
 ### 3. 🐙 Create a `GitHub Issue`
 
-- Use `📝issue_template_release`
+- Use [`📝issue_template_release`](https://github.com/OpenEnergyPlatform/open-transport-ontology/issues/new?template=issue_template_release.md)
 - Name `Release - Minor Version - 0.1.0`
-- Complete the necessary details
+- Complete the necessary details from the template
 
 ▶️ This issue documents the status of the release!
 
 ### 4. 🐙 Create a `Draft GitHub Release`
 
 - Start here for a **Patch Release** (Hotfix)
-- [Draft a new release](https://github.com/OpenEnergyPlatform/OpenTransportOntology/releases/new)
+- [Draft a new release](https://github.com/OpenEnergyPlatform/open-transport-ontology/releases/new)
 - Enter the release version number `0.1.0` as title
 - Summarize key changes from changelog in the description
 
@@ -70,22 +68,24 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 ### Added
 ### Changed
 ### Removed
+
+**Complete changelog:** [CHANGELOG.md](https://github.com/OpenEnergyPlatform/open-transport-ontology/blob/production/CHANGELOG.md)
+**Compare versions:** [0.1.0 - 0.2.0](https://github.com/OpenEnergyPlatform/open-transport-ontology/compare/v0.1.0...v0.2.0)
+**Main developers:** @Ludee @jh-RLI
 ```
 
-- Add a link to the `📝CHANGELOG.md`
-  - `**Complete changelog:** [CHANGELOG.md](https://github.com/OpenEnergyPlatform/OpenTransportOntology/blob/main/CHANGELOG.md)`
-- Add a link to compare versions
-  - `**Compare versions:** [0.1.0 - 0.2.0](https://github.com/OpenEnergyPlatform/OpenTransportOntology/compare/v0.1.0...v0.2.0)`
-- **Save draft**
+- Save draft
 
 ### 5. 💠 Create a `release` branch
 
-- Checkout `develop` and branch with `git checkout -b release-v0.1.0`
-- Push branch with `git push --set-upstream origin release-v0.1.0`
+- Change to `develop` branch: 💠`git checkout develop`
+- Update with online version: 💠`git pull`
+- Create branch: 💠`git checkout -b release-v0.1.0`
+- Push branch: 💠`git push --set-upstream origin release-v0.1.0`
 
 ### 6. 📝 Update the version files (bump version number)
 
-- Run bumpversion 💻 `bump-my-version bump --current-version 0.1.0 minor`
+- Run bumpversion: 💻 `bump-my-version bump --current-version 0.1.0 minor`
   - `📝CITATION.cff`
     - Update `version`
     - Update `date-released`
@@ -98,12 +98,11 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
   - Rename `Unreleased` section with release title from issue
   - Follow `[0.0.0] Minor Release - Name of Release - 20YY-MM-DD`
 
-
 ▶️ Increase version numbers!
 
 ### 7. 🐙 Create a Release Pull Request
 
-- Merge `release` into `main` branch
+- Merge `release` into `production` branch
 - Remove details from template
 - Assign two reviewers to check the release
 - Run all test
@@ -111,20 +110,21 @@ For a **Patch Release** (Hotfix), start at [section 3](https://github.com/rl-ins
 - Wait for reviews and tests
 - Merge Pull Request and delete `release` branch
 
-▶️ Merge code on `main` branch!
+▶️ Merge code on `production` branch!
 
 ### 8. 💠 Set the `Git Tag`
 
-- Checkout `main` branch and pull
-- Check existing tags `git tag -n`
-- Create new tag: `git tag -a v0.1.0 -m "super-repo Minor Release v0.1.0"`
+- Change to `production` branch: 💠`git checkout production`
+- Update with online version: 💠`git pull`
+- Check existing tags: 💠`git tag -n`
+- Create new tag: 💠`git tag -a v0.1.0 -m "oto Minor Release v0.1.0"`
 - This commit will be the final version for the release, breath three times and check again
-- Push tag: `git push --tags`
+- Push tag: 💠`git push --tags`
 
 If you messed up, remove tags and start again
 
-- Delete local tag: `git tag -d v0.1.0`
-- Delete remote tag: `git push --delete origin v0.1.0`
+- Delete local tag: 💠`git tag -d v0.1.0`
+- Delete remote tag: 💠`git push --delete origin v0.1.0`
 
 ▶️ Git Tag for GitHub Release!
 
@@ -132,25 +132,35 @@ If you messed up, remove tags and start again
 
 - Navigate to releases and open the draft release
 - Choose the correct `Git Tag`
-- Choose the `main` branch
+- Choose the `production` branch
 - Select `Set as the latest release`
 - Select `Create a discussion for this release` in category `Announcements`
 - **Publish release**
 
-▶️ Release on GitHub! 🚀
+▶️ 🎉 Release on GitHub! 🚀
+
+#### 🐙 Automated Release with GitHub Action
+
+- Check [GitHub Action](https://github.com/OpenEnergyPlatform/open-transport-ontology/actions/workflows/publish_pypi.yml)
+- The GitHub release starts the automated upload to PyPI
+- Check on PyPI if release arrived
+- If automated released failed, release manually
+
+▶️ 🎉 Release on PyPI! 🚀
 
 ### 10. 💻 Update the documentation
 
-- Checkout `main` branch and pull
-- Activate environment and enter repository
-- Test version with `mike serve`
-- Publish new minor version `mike deploy --push --update-aliases 0.1 latest`
+- Change to `production` branch: 💠`git checkout production`
+- Update with online version: 💠`git pull`
+- Activate environment and enter repository: 💻`activate py310`
+- Test version: 💻`mike serve`
+- Publish new version: 💻`mike deploy --push --update-aliases 0.1 latest`
 
 ▶️ Update the documentation!
 
 ### 11. 🐙 Set up new development
 
-- Create a Pull Request from `main` to `develop`
+- Create a [Pull Request](https://github.com/OpenEnergyPlatform/open-transport-ontology/compare) from `production` to `develop`
 - Named `Set up new development after release v0.1.0`
 - Checkout `develop` branch and pull
 - Create a new **Unreleased** section in the `📝CHANGELOG.md`
@@ -165,33 +175,11 @@ If you messed up, remove tags and start again
 ### Removed
 ```
 
+- Close all solved issues and PR and set tags and status
+- Create a new [GitHub Project](https://github.com/OpenEnergyPlatform/open-transport-ontology/projects?query=is%3Aopen) by cloning the latest project
+
 ▶️ Continue the developments 🛠
 
-## PyPi Release
-
-### 0. 💻 Check release on Test-PyPI
-
-- Check if the release it correctly displayed on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history)
-- With each push to the release branch or the branch `test-release` the package is released on [Test-PyPI](https://test.pypi.org/project/open-mastr/#history) by GitHub workflow (test-pypi-publish.yml).
-  - Note: Pre-releases on Test-PyPI are only shown under `Release history` in the navigation bar.
-  - Note: The branch status can only be released to a version on Test-PyPI once. Thus, for every branch status that you want to see on Test-PyPI increment the build version with `bump2version build` and push afterward.
-- Once testing on Test-PyPI is done, change the release version to the final desired version with `bump2version release`
-  - Note: The release on Test-PyPI might fail, but it will be the correct release version for the PyPI server.
-- Push commits to the `release-*` branch
-
-### 1. 💻 Create and publish package on PyPI
-
-💻 `cd D:\git\github\USER\Repository\` Navigate to git folder <br>
-💻 `activate py310` Activate conda environment <br>
-💻 `python -m build` Create package using <br>
-📝 `dist` Check that files have been created in folder <br>
-💻 `twine check dist/*` Check build <br>
-💻 `twine upload -r testpypi dist/NAME_0.2.0.tar.gz` Upload to Test PyPI using <br>
-💻 `twine upload dist/NAME_0.2.0.tar.gz` Upload to PyPI using <br>
-💻 Enter `name` and `password` <br>
-🎉 Check on PyPI if release arrived, breath three times and smile!
-
-▶️ Publish the Package
 
 ## Sources:
 
