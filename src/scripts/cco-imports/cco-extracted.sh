@@ -9,7 +9,7 @@ cco_version=v2.0-2024-11-06
 ontology_source=src/ontology
 imports="${ontology_source}/imports"
 
-iri_base="http://w3id.org/"
+iri_base="https://w3id.org/"
 cco_base="https://raw.githubusercontent.com/CommonCoreOntology/CommonCoreOntologies/refs/tags/${cco_version}/src/cco-modules"
 cco_new_iri="${ontology_name}/imports"
 cco_new_version_iri="${ontology_name}/dev/imports"

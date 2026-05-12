@@ -39,6 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update a definition mode of transport, air transport, ground transport, motorised transport, water transport [(#44)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/44)
 - moved motorised transport as subclass of mode of transport [(#44)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/44)
 - Updated classes: vehicle, air vehicle, airplane, helicopter, road vehicle, automobile, bicycle, bus, motorcycle, truck, trailer truck, water vehicle [[(#52)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/52)]
+- All IRIs have been changed from http://w3id.org/oto/ to  https://w3id.org/oto/ [[(#55)](https://github.com/OpenEnergyPlatform/OpenTransportOntology/pull/55)]
 
 ### Removed
 
