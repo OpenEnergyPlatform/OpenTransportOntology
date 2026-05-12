@@ -40,6 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - moved motorised transport as subclass of mode of transport [(#44)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/44)
 - Updated classes: vehicle, air vehicle, airplane, helicopter, road vehicle, automobile, bicycle, bus, motorcycle, truck, trailer truck, water vehicle [[(#52)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/52)]
 - All IRIs have been changed from http://w3id.org/oto/ to  https://w3id.org/oto/ [[(#55)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/55)]
+- Change RePo Name vom OpenTransportOntology to open-transport-ontology according to ENERO naming conventions 
 
 ### Removed
 
