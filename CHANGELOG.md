@@ -18,7 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ### Changed
-
+- Versionnumber in OTO.ttl [(#70)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/70)
+-  
 ### Removed
 
 ## [0.2.1] - 2026-05-13
