@@ -20,11 +20,11 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: '*.jar'
-          key: robot-1-9-7-widoco-1-4-25
+          key: robot-1-9-10-widoco-1-4-25
       - name: fetch dependencies
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
         run: |
-          wget https://github.com/ontodev/robot/releases/download/v1.9.7/robot.jar -O robot.jar
+          wget https://github.com/ontodev/robot/releases/download/v1.9.10/robot.jar -O robot.jar
           wget https://github.com/dgarijo/Widoco/releases/download/v1.4.25/widoco-1.4.25-jar-with-dependencies_JDK-17.jar -O widoco.jar
       - name: store dependencies
         uses: actions/cache/save@v4
