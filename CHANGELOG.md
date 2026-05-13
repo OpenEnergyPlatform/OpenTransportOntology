@@ -21,6 +21,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [0.2.1] - 2026-05-13
+
+### Changed
+- Bug fix for documentation [(#65)](https://github.com/OpenEnergyPlatform/open-transport-ontology/pull/65) 
+
 
 ## [0.2.0] - 2026-05-12
 
