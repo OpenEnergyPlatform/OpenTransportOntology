@@ -1,8 +1,10 @@
 ONTOLOGY_NAME := oto
-IRI_NAME := open-transport-ontology
+IRI_NAME := oto
 
+# dont replace IRIs
 IRI_PLACEHOLDER := https:\/\/w3id.org\/
-IRI_BASE := https:\/\/openenergyplatform.github.io\/
+IRI_BASE := https:\/\/w3id.org\/
+#IRI_BASE := https:\/\/openenergyplatform.github.io\/
 
 IRI_ONTOLOGY_PLACEHOLDER := $(IRI_PLACEHOLDER)$(ONTOLOGY_NAME)
 IRI_ONTOLOGY := $(IRI_BASE)$(IRI_NAME)
@@ -158,7 +160,7 @@ $(VERSIONDIR)/catalog-v001.xml: $(ONTOLOGY_SOURCE)/catalog-v001.xml
 	$(SED) -i -E "s/edits\//modules\//m" $@
 
 $(ROBOT_PATH): | build
-	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.9.5/robot.jar
+	curl -L -o $@ https://github.com/ontodev/robot/releases/download/v1.9.10/robot.jar
 
 $(VERSIONDIR)/owl/%.owl: $(VERSIONDIR)/%.ttl
 	$(call translate_to_owl,$@,$<)
